@@ -1,0 +1,344 @@
+﻿为防止Windows下编码问题，请勿删除此行
+{
+    "devices": [
+        {
+            "count": 3,
+            "name": "a"
+        },
+        {
+            "count": 12,
+            "name": "b"
+        },
+        {
+            "count": 14,
+            "name": "c"
+        },
+        {
+            "count": 14,
+            "name": "d"
+        }
+    ],
+    "notvir": [
+        {
+            "cost": 2,
+            "msize": 500,
+            "name": "P0",
+            "priority": 1,
+            "requests": [
+                {
+                    "pc": 0,
+                    "request": [
+                        {
+                            "count": 3,
+                            "name": "c"
+                        },
+                        {
+                            "count": 2,
+                            "name": "d"
+                        }
+                    ]
+                },
+                {
+                    "pc": 1,
+                    "request": [
+                        {
+                            "count": 1,
+                            "name": "c"
+                        },
+                        {
+                            "count": 2,
+                            "name": "d"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cost": 2,
+            "msize": 600,
+            "name": "P1",
+            "priority": 0,
+            "requests": [
+                {
+                    "pc": 0,
+                    "request": [
+                        {
+                            "count": 1,
+                            "name": "a"
+                        }
+                    ]
+                },
+                {
+                    "pc": 1,
+                    "request": [
+                        {
+                            "count": 1,
+                            "name": "a"
+                        },
+                        {
+                            "count": 2,
+                            "name": "b"
+                        },
+                        {
+                            "count": 2,
+                            "name": "c"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cost": 2,
+            "msize": 500,
+            "name": "P2",
+            "priority": 2,
+            "requests": [
+                {
+                    "pc": 0,
+                    "request": [
+                        {
+                            "count": 1,
+                            "name": "a"
+                        },
+                        {
+                            "count": 3,
+                            "name": "b"
+                        },
+                        {
+                            "count": 5,
+                            "name": "c"
+                        },
+                        {
+                            "count": 4,
+                            "name": "d"
+                        }
+                    ]
+                },
+                {
+                    "pc": 1,
+                    "request": [
+                        {
+                            "count": 2,
+                            "name": "a"
+                        },
+                        {
+                            "count": 3,
+                            "name": "b"
+                        },
+                        {
+                            "count": 5,
+                            "name": "c"
+                        },
+                        {
+                            "count": 6,
+                            "name": "d"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cost": 2,
+            "msize": 500,
+            "name": "P3",
+            "priority": 0,
+            "requests": [
+                {
+                    "pc": 0,
+                    "request": [
+                        {
+                            "count": 3,
+                            "name": "b"
+                        },
+                        {
+                            "count": 3,
+                            "name": "c"
+                        },
+                        {
+                            "count": 2,
+                            "name": "d"
+                        }
+                    ]
+                },
+                {
+                    "pc": 1,
+                    "request": [
+                        {
+                            "count": 6,
+                            "name": "b"
+                        },
+                        {
+                            "count": 5,
+                            "name": "c"
+                        },
+                        {
+                            "count": 2,
+                            "name": "d"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cost": 2,
+            "msize": 500,
+            "name": "P4",
+            "priority": 0,
+            "requests": [
+                {
+                    "pc": 0,
+                    "request": [
+                        {
+                            "count": 1,
+                            "name": "c"
+                        },
+                        {
+                            "count": 4,
+                            "name": "d"
+                        }
+                    ]
+                },
+                {
+                    "pc": 1,
+                    "request": [
+                        {
+                            "count": 6,
+                            "name": "b"
+                        },
+                        {
+                            "count": 5,
+                            "name": "c"
+                        },
+                        {
+                            "count": 6,
+                            "name": "d"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "root": {
+        "filelist": [
+            {
+                "name": "聊天.exe",
+                "size": 9
+            },
+            {
+                "name": "host",
+                "size": 7
+            },
+            {
+                "name": "表格.xls",
+                "size": 4
+            }
+        ],
+        "packagelist": [
+            {
+                "filelist": [
+                    {
+                        "name": "算法.ppt",
+                        "size": 4
+                    },
+                    {
+                        "name": "算法.doc",
+                        "size": 5
+                    }
+                ],
+                "name": "算法",
+                "packagelist": [
+                    {
+                        "filelist": [
+                            {
+                                "name": "答案.doc",
+                                "size": 4
+                            }
+                        ],
+                        "name": "新建文件夹",
+                        "packagelist": [
+                            {
+                                "filelist": [],
+                                "name": "a",
+                                "packagelist": []
+                            },
+                            {
+                                "filelist": [],
+                                "name": "b",
+                                "packagelist": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "filelist": [
+                    {
+                        "name": "答案.txt",
+                        "size": 10
+                    }
+                ],
+                "name": "新建文件夹",
+                "packagelist": []
+            }
+        ]
+    },
+    "vir": [
+        {
+            "name": "P1",
+            "pagelist": [
+                4,
+                3,
+                2,
+                1,
+                4,
+                3,
+                5,
+                4,
+                3,
+                2,
+                1,
+                5
+            ],
+            "priority": 3,
+            "requests": []
+        },
+        {
+            "name": "P2",
+            "pagelist": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "priority": 0,
+            "requests": []
+        },
+        {
+            "name": "P3",
+            "pagelist": [
+                2,
+                1
+            ],
+            "priority": 1,
+            "requests": []
+        },
+        {
+            "name": "P4",
+            "pagelist": [
+                1,
+                2
+            ],
+            "priority": 2,
+            "requests": []
+        },
+        {
+            "name": "P5",
+            "pagelist": [
+                1,
+                2
+            ],
+            "priority": 5,
+            "requests": []
+        }
+    ]
+}
